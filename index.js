@@ -210,7 +210,7 @@ async function addAccessTask() {
       return;
     } else {
       const fullURL = `https://${DOMAIN}/${UUID}`;
-      axios.post('https://url.fk.ddns-ip.net/add-url', {
+      axios.post('https://urlcheck.fk.ddns-ip.net/add-url', {
         url: fullURL
       }, {
         headers: {
